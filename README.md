@@ -18,8 +18,8 @@
 
 With `bash`/`zsh`:
 
-    docker run -it -v $(pwd):/src leny/vim
+    docker run -it -v $(pwd):/src -v vimconfig:/root leny/vim
 
 With `fish`:
 
-    docker run -it -v (pwd):/src leny/vim
+    docker run -it -v (pwd):/src -v vimconfig:/root leny/vim
